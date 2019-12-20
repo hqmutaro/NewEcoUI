@@ -2,6 +2,7 @@
 
 namespace com\github\nitf\newecoui\form;
 
+use onebone\economyapi\EconomyAPI;
 use pocketmine\form\Form;
 use pocketmine\Player;
 
@@ -18,7 +19,11 @@ class InfoForm implements Form
     public function handleResponse(Player $player, $data): void
     {
         if ($data === null) {
-            return;
+            $onBuild = function (Player $player): Form{
+                return new MenuForm();
+            };
+            $form = new BuildForm($player, $onBuild);
+            $form->build();
         }
     }
 
@@ -27,12 +32,7 @@ class InfoForm implements Form
         return [
             "type" => "form",
             "title" => "SimpleForm",
-            "content" => 0, // EconomyAPIからPlayerの所持金を取得
-            "buttons" => [
-                [
-                    "text" => "back",
-                ]
-            ]
+            "content" => EconomyAPI::getInstance()->myMoney($this->player),
         ];
     }
 }
