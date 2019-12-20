@@ -20,7 +20,6 @@ class BuildForm
     {
         $this->player = $player;
         $this->onBuild = $onBuild;
-        $this->build();
     }
 
     public function build(): void

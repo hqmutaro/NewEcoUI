@@ -23,21 +23,24 @@ class MenuForm implements Form
                 $onBuild = function (Player $player): Form{
                     return new InfoForm($player);
                 };
-                new BuildForm($player, $onBuild);
+                $form = new BuildForm($player, $onBuild);
+                $form->build();
                 return;
 
             case self::PayButton:
                 $onBuild = function (Player $player): Form{
                     return new PayForm();
                 };
-                new BuildForm($player, $onBuild);
+                $form = new BuildForm($player, $onBuild);
+                $form->build();
                 return;
 
             case self::SearchButton:
                 $onBuild = function (Player $player): Form{
                     return null;
                 };
-                new BuildForm($player, $onBuild);
+                $form = new BuildForm($player, $onBuild);
+                $form->build();
                 return;
 
             default:

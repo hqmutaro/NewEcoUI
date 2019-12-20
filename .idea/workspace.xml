@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbdc50bf-cfce-48cb-b390-0364247dd073" name="Default Changelist" comment="" />
+    <list default="true" id="fbdc50bf-cfce-48cb-b390-0364247dd073" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/SearchForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/EconomyAPI.phar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/BuildForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/BuildForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/InfoForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/InfoForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/MenuForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/MenuForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/PayForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/PayForm.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,37 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/MenuForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding>
-                <element signature="e#49#111#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/BuildForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#49#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/SearchForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="e#51#85#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/PayForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="32">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
-                <element signature="e#49#74#0#PHP" expanded="true" />
+                <element signature="e#49#83#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,20 +45,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/InfoForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="176">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
-                <element signature="e#49#74#0#PHP" expanded="true" />
+                <element signature="e#49#83#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/ConfigDI.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -80,21 +67,21 @@
         <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/ConfigDI.php" />
         <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/repository/MessageRepositoryInterface.php" />
         <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/infrastructure/MessageRepository.php" />
+        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/command/EcoUICommand.php" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/NewEcoUI.php" />
+        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/BuildForm.php" />
+        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/MenuForm.php" />
         <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/PayForm.php" />
         <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/InfoForm.php" />
-        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/command/EcoUICommand.php" />
-        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/BuildForm.php" />
-        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/NewEcoUI.php" />
-        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/MenuForm.php" />
-        <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/com/github/nitf/newecoui/form/SearchForm.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,6 +141,37 @@
               <item name="newecoui" type="462c0819:PsiDirectoryNode" />
               <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NewEcoUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewEcoUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="nitf" type="462c0819:PsiDirectoryNode" />
+              <item name="newecoui" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewEcoUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewEcoUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="nitf" type="462c0819:PsiDirectoryNode" />
+              <item name="newecoui" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewEcoUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewEcoUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="nitf" type="462c0819:PsiDirectoryNode" />
+              <item name="newecoui" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,12 +189,12 @@
     <property name="settings.editor.splitter.proportion" value="0.23343225" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mi191328\my\dev\NewEcoUI\vendor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mi191328\my\dev\NewEcoUI\src\com\github\nitf\newecoui\infrastructure\repository" />
       <recent name="C:\Users\mi191328\my\dev\NewEcoUI\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mi191328\my\dev\NewEcoUI\vendor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,20 +221,20 @@
       <updated>1576573970930</updated>
       <workItem from="1576573972118" duration="10230000" />
       <workItem from="1576687806315" duration="1184000" />
-      <workItem from="1576712372754" duration="525000" />
+      <workItem from="1576712372754" duration="7458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11939000" />
+    <option name="totallyTimeSpent" value="18872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46153846" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.27044535" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -240,49 +258,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/Form.php" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/repository/MessageRepositoryInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/infrastructure/repository/MessageRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#59#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/command/EcoUICommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#52#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/NewEcoUI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#44#94#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/MenuForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#49#111#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -294,13 +275,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/InfoForm.php">
+    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/NewEcoUI.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="208">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#49#74#0#PHP" expanded="true" />
+            <element signature="e#44#94#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/repository/MessageRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -313,20 +301,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/BuildForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="312">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#49#74#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/infrastructure/repository/MessageRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#59#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/vendor/EconomyAPI.phar/src/onebone/economyapi/EconomyAPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="227" column="56" lean-forward="true" selection-start-line="227" selection-start-column="56" selection-end-line="227" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/MenuForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#49#111#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/InfoForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#49#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/PayForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        <state relative-caret-position="32">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <element signature="e#49#74#0#PHP" expanded="true" />
+            <element signature="e#49#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/nitf/newecoui/form/SearchForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#51#85#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
