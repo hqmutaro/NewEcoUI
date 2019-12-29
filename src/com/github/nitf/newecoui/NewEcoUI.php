@@ -9,6 +9,7 @@ class NewEcoUI extends PluginBase
 {
     public function onEnable(): void
     {
+        $this->saveResource("Message.yml");
         // Set up DI.
         ConfigDI::setUpDI($this->getDataFolder());
 
