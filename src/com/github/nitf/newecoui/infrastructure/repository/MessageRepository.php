@@ -1,6 +1,6 @@
 <?php
 
-namespace com\github\nitf\newecoui\infrastructure;
+namespace com\github\nitf\newecoui\infrastructure\repository;
 
 use com\github\nitf\newecoui\ConfigDI;
 use com\github\nitf\newecoui\repository\MessageRepositoryInterface;
