@@ -1,6 +1,6 @@
 name: NewEcoUI
 main: com\github\nitf\newecoui\NewEcoUI
-version: 0.1.0
-api: 3.0.0
+version: 1.0.0
+api: 3.11.1
 author: 2tf
 depend: [EconomyAPI]
