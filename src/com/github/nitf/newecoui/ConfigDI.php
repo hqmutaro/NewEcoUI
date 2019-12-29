@@ -11,16 +11,11 @@ class ConfigDI
 
     public static function setUpDI(string $path): void
     {
-        $i = function ($v) { return $v; };
-        self::$message = new Config($path . $i(ConfigFile::Message), Config::YAML);
+        self::$message = new Config($path . "Message.yml", Config::YAML);
     }
 
     public static function message(): Config
     {
         return self::$message;
     }
-}
-
-class ConfigFile {
-    const Message = "Message.yml";
 }
