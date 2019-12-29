@@ -2,9 +2,10 @@
 
 namespace com\github\nitf\newecoui\form;
 
-use com\github\nitf\newecoui\infrastructure\MessageRepository;
+use com\github\nitf\newecoui\infrastructure\repository\MessageRepository;
 use pocketmine\form\Form;
 use pocketmine\Player;
+use pocketmine\utils\TextFormat;
 
 class MenuForm implements Form
 {
@@ -37,7 +38,7 @@ class MenuForm implements Form
 
             case self::SearchButton:
                 $onBuild = function (Player $player): Form{
-                    return null;
+                    return new SearchForm(null);
                 };
                 $form = new BuildForm($player, $onBuild);
                 $form->build();
@@ -48,13 +49,13 @@ class MenuForm implements Form
         }
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         $messageRepository = new MessageRepository();
         return [
             "type" => "form",
-            "title" => "SimpleForm",
-            "content" => "Select button.",
+            "title" => TextFormat::AQUA . "Eco UI",
+            "content" => "選択してください",
             "buttons" => [
                 [
                     "text" => $messageRepository->getMessage("menu.info_button"),

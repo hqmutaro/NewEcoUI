@@ -2,9 +2,11 @@
 
 namespace com\github\nitf\newecoui\form;
 
+use com\github\nitf\newecoui\infrastructure\repository\MessageRepository;
 use onebone\economyapi\EconomyAPI;
 use pocketmine\form\Form;
 use pocketmine\Player;
+use pocketmine\utils\TextFormat;
 
 class InfoForm implements Form
 {
@@ -18,21 +20,25 @@ class InfoForm implements Form
 
     public function handleResponse(Player $player, $data): void
     {
-        if ($data === null) {
-            $onBuild = function (Player $player): Form{
-                return new MenuForm();
-            };
-            $form = new BuildForm($player, $onBuild);
-            $form->build();
-        }
+        $onBuild = function (Player $player): Form{
+            return new MenuForm();
+        };
+        $form = new BuildForm($player, $onBuild);
+        $form->build();
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
+        $messageRepository = new MessageRepository();
         return [
-            "type" => "form",
-            "title" => "SimpleForm",
-            "content" => EconomyAPI::getInstance()->myMoney($this->player),
+            'type' => 'custom_form',
+            'title' =>  TextFormat::AQUA . $messageRepository->getMessage("menu.info_button"),
+            "content" => [
+                [
+                    "type" => "label",
+                    "text" => (string) EconomyAPI::getInstance()->myMoney($this->player)
+                ],
+            ]
         ];
     }
 }
